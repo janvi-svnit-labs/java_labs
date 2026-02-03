@@ -6,6 +6,8 @@ public class CB3_RunwayLength {
         System.out.print("Enter speed and acceleration: ");
         double v = sc.nextDouble();
         double a = sc.nextDouble();
+        v=Math.abs(v);
+        a=Math.abs(a);
 
         double d = (v*v)/(2*a);
 

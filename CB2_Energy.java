@@ -5,6 +5,7 @@ public class CB2_Energy {
 
         System.out.print("Enter weight of water: ");
         double M = sc.nextDouble();
+        M=Math.abs(M);
 
         System.out.print("Enter initial temperature: ");
         double T0 = sc.nextDouble();
